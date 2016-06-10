@@ -95,7 +95,7 @@ public class Arena {
 	 * @param locations	the number of spawn locations the arena has
 	 * @param playerCap	the maximum number of players that can fit in the arena
 	 * @param rounds	the number of rounds the arena has
-	 * @return			the item stack for the arena
+	 * @return		the item stack for the arena
 	 */
 	public ItemStack initItemStack(final int locations, final int playerCap, final int rounds) {
 		// Creates the item stack from the arena's material.
@@ -396,7 +396,7 @@ public class Arena {
 	 * Checks to see if a player is in queue.
 	 * 
 	 * @param player	the player to check
-	 * @return			whether or not the player is in queue
+	 * @return		whether or not the player is in queue
 	 */
 	public boolean inQueue(Player player) {
 		// Loop through each participant in the queue.
