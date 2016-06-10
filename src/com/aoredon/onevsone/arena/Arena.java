@@ -60,7 +60,7 @@ public class Arena {
 	 * Initialises the properties for the arena.
 	 * 
 	 * @param name			the name of the arena
-	 * @param description	the description for the arena
+	 * @param description		the description for the arena
 	 * @param material		the material which is used as the icon for the arena
 	 * @param locations		a list of spawn locations in the arena 
 	 * @param playerCap		the maximum number of players allowed in the arena
