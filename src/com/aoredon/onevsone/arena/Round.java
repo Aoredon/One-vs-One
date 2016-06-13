@@ -14,6 +14,14 @@ import org.bukkit.event.player.PlayerQuitEvent;
 
 import com.aoredon.onevsone.Main;
 
+/**
+ * This class handles the players while they are fighting. It has a countdown before
+ * the round starts, it prevents players from using commands inside the arena and it
+ * keeps track of when the player's have died. Once the round has finished, it will
+ * notify the arena.
+ * 
+ * @author Alex Guest
+ */
 public class Round {
 	// The identifier of the repeating task.
 	private int taskID;
